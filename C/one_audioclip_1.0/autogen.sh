@@ -4,13 +4,13 @@
 srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
 
-PKG_NAME="gnonlin"
+PKG_NAME="gnonlin-snippet"
 
 (test -f $srcdir/configure.ac \
   && test -d $srcdir/src \
   && test -f $srcdir/src/snippet.c) || {
     echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
-    echo " top-level gnonlin directory"
+    echo " top-level gnonlin-snippet directory"
     exit 1
 }
 
